@@ -1,0 +1,2179 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.5 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                      Dynamic AC of DiffProbe_-20dB                       ***
+***                           30.07.2021 13:30:46                            ***
+********************************************************************************
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+AC Voltages at Frequency=1e+006 (Mag, Degrees)
+==============================================
+Node                      Voltage  Node                      Voltage 
+1               132.378m,179.999°  VDIV_+             9.837m,179.99° 
+3                   156.886m,180°  4             132.378m,-549.815u° 
+VDIV_-            9.837m,-9.865m°  6             156.886m,-432.996u° 
+7                100.019u,179.99°  8                   9.74m,179.99° 
+9                  3.615u,179.99°  10              100.019u,-9.865m° 
+11                 9.74m,-9.865m°  12                3.615u,-9.865m° 
+13                 9.837m,179.99°  14                9.837m,-9.865m° 
+15                49.18m,179.856°  16                9.836m,179.915° 
+17               9.836m,-88.913m°  18              49.18m,-145.067m° 
+VG1_+             24.59m,179.856°  VG1_-             24.59m,179.379° 
+21                98.359m,179.59°  VOUT             98.352m,179.315° 
+23              340.425p,-30.998°  24              337.959p,-31.005° 
+VEE               237.9p,-31.004°  VCC                 440.485p,-31° 
+27                  339.034p,-31°  28                              1 
+29                500m,-243.731p°  30                     500m,-180° 
+31              340.425p,-30.998°  32               967.73f,-26.429° 
+33               1.465n,-115.642°  34                  303.935m,180° 
+35            303.935m,-127.717u°  36            254.918m,-190.344u° 
+37             377.459m,-64.275u°  38                  254.918m,180° 
+39                  377.459m,180°  X20.2                  500m,-180° 
+X20.3                  500m,-180°  X20.5                  500m,-180° 
+X20.6              500m,-179.985°  X20.SWITCH         500m,-179.969° 
+X20.8                 0.05f,-180°  X20.THRESH      282.187p,-93.595° 
+X20.SWITCHCHK      0.05f,179.964°  X20.ION           3.135p,-93.595° 
+X20.12             3.135,-93.595°  X20.13                 500m,-180° 
+X20.14           3.135MEG,86.405°  X20.DIF          31.354m,-93.595° 
+X20.DVDT           3.135,-93.595°  X21.2             500m,-243.731p° 
+X21.3             500m,-243.734p°  X21.5             500m,-243.755p° 
+X21.6                500m,15.35m°  X21.SWITCH            500m,30.7m° 
+X21.8              0.05f,32.029n°  X21.THRESH       282.187p,86.405° 
+X21.SWITCHCHK         0.05f,-36m°  X21.ION            3.135p,86.405° 
+X21.12              3.135,86.405°  X21.13            500m,-243.731p° 
+X21.14          3.135MEG,-93.595°  X21.DIF           31.354m,86.405° 
+X21.DVDT            3.135,86.405°  X9.120          339.191p,-31.001° 
+X9.10           339.191p,-31.001°  X9.121          339.191p,-31.001° 
+X9.122          339.191p,-31.001°  X9.57           766.582n,-38.239° 
+X9.31           339.191p,-31.001°  X9.32           339.191p,-31.001° 
+X9.18             1.004p,-26.593°  X9.19               339.003p,-31° 
+X9.50             237.9p,-31.004°  X9.40               440.482p,-31° 
+X9.17           339.192p,-31.001°  X9.24           339.191p,-31.001° 
+X9.23           541.774p,-30.999°  X9.22           541.774p,-30.999° 
+X9.21           339.191p,-31.001°  X9.25           339.191p,-31.001° 
+X9.26           339.191p,-31.001°  X9.34           339.191p,-31.001° 
+X9.27           339.191p,-31.001°  X9.28           339.191p,-31.001° 
+X9.29           339.191p,-31.001°  X9.38           180.849p,-30.989° 
+X9.39           180.849p,-30.989°  X9.41           183.685p,-25.523° 
+X9.42               440.483p,-31°  X9.43               440.482p,-31° 
+X9.44               440.482p,-31°  X9.45           440.194p,-31.739° 
+X9.98           180.849p,-30.989°  X9.97               440.482p,-31° 
+X9.95             237.9p,-31.004°  X9.94           180.849p,-30.989° 
+X9.99           180.849p,-30.989°  X9.96           180.849p,-30.989° 
+X9.52           339.191p,-31.001°  X9.51           339.191p,-31.001° 
+X9.58           339.179p,-30.997°  X9.59            1.543n,-115.644° 
+X9.71            1.543n,-115.644°  X9.73            1.539n,-115.644° 
+X9.74               440.482p,-31°  X9.710           1.542n,-115.644° 
+X9.75             237.9p,-31.004°  X9.72            1.538n,-115.644° 
+X9.720           1.539n,-115.644°  X9.76               440.482p,-31° 
+X9.77             237.9p,-31.004°  X9.78            1.535n,-115.644° 
+X9.79            1.535n,-115.644°  X9.81            1.534n,-115.643° 
+X9.86            1.465n,-115.642°  X9.93             6.59n,-112.742° 
+X9.91           339.191p,-31.001°  X9.92           339.191p,-31.001° 
+X9.11           180.847p,-30.989°  X9.33           339.191p,-31.001° 
+
+
+AC values for Diode (Mag, Degrees)
+==================================
+Instance:                            D1                         D2
+Using model:                     1N4148                     1N4148
+
+Power AC Terms:
+PD                               15.71f           15.711f,-0.001f°
+PS                        378.318p,-90°              378.429p,-90°
+
+AC Pin Currents:
+Id                     76.919n,-90.012°            76.942n,89.988°
+
+Device Variables:
+area                             1.000                      1.000 
+ic                               0.000                      0.000 
+
+
+Instance:                            D3                         D4
+Using model:                     1N4148                     1N4148
+
+Power AC Terms:
+PD                               15.71f        15.711f,1.756E-019°
+PS                        378.318p,-90°              378.429p,-90°
+
+AC Pin Currents:
+Id                      76.919n,89.988°           76.942n,-90.012°
+
+Device Variables:
+area                             1.000                      1.000 
+ic                               0.000                      0.000 
+
+
+Instance:                        X10.D5                     X10.D3
+
+Power AC Terms:
+PD                   2.052E-032,3.821f°            1.209f,-0.018f°
+PS                                    0                          0
+
+AC Pin Currents:
+Id                  2.026E-022,149.004°            49.18f,179.856°
+
+Device Variables:
+area                             1.000                      1.000 
+ic                               0.000                      0.000 
+
+
+Instance:                        X10.D4                     X10.D1
+
+Power AC Terms:
+PD                      1.209f,-0.018f°             0.98f,-0.023f°
+PS                                    0                          0
+
+AC Pin Currents:
+Id                    49.18f,-144.344m°           44.262f,179.881°
+
+Device Variables:
+area                             1.000                      1.000 
+ic                               0.000                      0.000 
+
+
+Instance:                        X10.D2                     X15.D5
+
+Power AC Terms:
+PD                       0.98f,-0.023f°         2.052E-032,3.821f°
+PS                                    0                          0
+
+AC Pin Currents:
+Id                   44.262f,-118.904m°        2.026E-022,149.004°
+
+Device Variables:
+area                             1.000                      1.000 
+ic                               0.000                      0.000 
+
+
+Instance:                        X15.D3                     X15.D4
+
+Power AC Terms:
+PD                               4.837f                     4.837f
+PS                                    0                          0
+
+AC Pin Currents:
+Id                      98.359f,179.59°         98.359f,-410.001m°
+
+Device Variables:
+area                             1.000                      1.000 
+ic                               0.000                      0.000 
+
+
+Instance:                        X15.D1                     X15.D2
+
+Power AC Terms:
+PD                               2.776f                     2.776f
+PS                                    0                          0
+
+AC Pin Currents:
+Id                    74.508f,-173.158°             74.508f,6.842°
+
+Device Variables:
+area                             1.000                      1.000 
+ic                               0.000                      0.000 
+
+
+Instance:                        X16.D5                     X16.D3
+
+Power AC Terms:
+PD                   2.052E-032,3.821f°                     1.209f
+PS                                    0                          0
+
+AC Pin Currents:
+Id                  2.026E-022,149.004°          49.18f,-145.067m°
+
+Device Variables:
+area                             1.000                      1.000 
+ic                               0.000                      0.000 
+
+
+Instance:                        X16.D4                     X16.D1
+
+Power AC Terms:
+PD                               1.209f                     4.366f
+PS                                    0                          0
+
+AC Pin Currents:
+Id                      49.18f,179.855°         93.441f,-258.092m°
+
+Device Variables:
+area                             1.000                      1.000 
+ic                               0.000                      0.000 
+
+
+Instance:                        X16.D2                     X20.D1
+Using model:                         NA                 X20.DCLAMP
+
+Power AC Terms:
+PD                               4.366f                 1.244E-020
+PS                                    0                          0
+
+AC Pin Currents:
+Id                     93.441f,179.742°            0.186f,-89.969°
+
+Device Variables:
+area                             1.000                      1.000 
+ic                               0.000                      0.000 
+
+
+Instance:                        X20.D2                     X21.D1
+Using model:                 X20.DCLAMP                 X21.DCLAMP
+
+Power AC Terms:
+PD                           1.244E-020                 1.244E-020
+PS                                    0                          0
+
+AC Pin Currents:
+Id                       0.186f,90.031°             0.186f,90.031°
+
+Device Variables:
+area                             1.000                      1.000 
+ic                               0.000                      0.000 
+
+
+Instance:                        X21.D2                    X9.DIN1
+Using model:                 X21.DCLAMP                   X9.DMOD2
+
+Power AC Terms:
+PD                           1.244E-020         2.806E-032,5.588f°
+PS                                    0                          0
+
+AC Pin Currents:
+Id                      0.186f,-89.969°        2.369E-022,-31.022°
+
+Device Variables:
+area                             1.000                      1.000 
+ic                               0.000                      0.000 
+
+
+Instance:                       X9.DIN2                    X9.DIN3
+Using model:                   X9.DMOD2                   X9.DMOD2
+
+Power AC Terms:
+PD                  9.657E-032,-3.248f°         5.111E-033,3.835f°
+PS                                    0                          0
+
+AC Pin Currents:
+Id                   4.395E-022,148.99°        1.011E-022,149.007°
+
+Device Variables:
+area                             1.000                      1.000 
+ic                               0.000                      0.000 
+
+
+Instance:                       X9.DIN4                     X9.DA1
+Using model:                   X9.DMOD2                   X9.DMOD1
+
+Power AC Terms:
+PD                           5.149E-033                 2.052E-032
+PS                                    0                          0
+
+AC Pin Currents:
+Id                  1.015E-022,149.002°        2.026E-022,149.004°
+
+Device Variables:
+area                             1.000                      1.000 
+ic                               0.000                      0.000 
+
+
+Instance:                        X9.DA2                     X9.DTA
+Using model:                   X9.DMOD1                   X9.DMOD2
+
+Power AC Terms:
+PD                           5.307E-043                 5.316E-043
+PS                                    0                          0
+
+AC Pin Currents:
+Id                  2.026E-022,-30.996°        2.027E-022,-30.996°
+
+Device Variables:
+area                             1.000                      1.000 
+ic                               0.000                      0.000 
+
+
+Instance:                        X9.DTB                    X9.DCX1
+Using model:                   X9.DMOD2                   X9.DMOD1
+
+Power AC Terms:
+PD                           3.333E-045        3.370E-032,-4.653f°
+PS                                    0                          0
+
+AC Pin Currents:
+Id                  1.532E-025,149.004°        2.596E-022,148.992°
+
+Device Variables:
+area                             1.000                      1.000 
+ic                               0.000                      0.000 
+
+
+Instance:                       X9.DCX2                   X9.DLIM1
+Using model:                   X9.DMOD1                   X9.DMOD1
+
+Power AC Terms:
+PD                           1.627E-033         2.936E-025,4.481f°
+PS                                    0                          0
+
+AC Pin Currents:
+Id                   5.705E-023,-31.05°            0.001f,141.757°
+
+Device Variables:
+area                             1.000                      1.000 
+ic                               0.000                      0.000 
+
+
+Instance:                      X9.DLIM2                  X9.DCLMP2
+Using model:                   X9.DMOD1                   X9.DMOD1
+
+Power AC Terms:
+PD                           2.936E-025        1.224E-030,-4.099f°
+PS                                    0                          0
+
+AC Pin Currents:
+Id                      0.001f,-38.243°       1.565E-021,-131.921°
+
+Device Variables:
+area                             1.000                      1.000 
+ic                               0.000                      0.000 
+
+
+Instance:                     X9.DCLMP1                    X9.DDN1
+Using model:                   X9.DMOD1                   X9.DMOD1
+
+Power AC Terms:
+PD                  1.185E-030,-4.236f°          1.218E-030,4.12f°
+PS                                    0                          0
+
+AC Pin Currents:
+Id                   1.539E-021,55.504°       1.561E-021,-131.962°
+
+Device Variables:
+area                             1.000                      1.000 
+ic                               0.000                      0.000 
+
+
+Instance:                       X9.DDN2                    X9.DDP1
+Using model:                   X9.DMOD1                   X9.DMOD1
+
+Power AC Terms:
+PD                           1.249E-026        1.178E-030,-4.261f°
+PS                                    0                          0
+
+AC Pin Currents:
+Id                       7.741f,64.311°         1.535E-021,55.478°
+
+Device Variables:
+area                             1.000                      1.000 
+ic                               0.000                      0.000 
+
+
+Instance:                       X9.DDP2                    X9.DFX1
+Using model:                   X9.DMOD1                   X9.DMOD1
+
+Power AC Terms:
+PD                           1.317E-026                 4.798E-021
+PS                                    0                          0
+
+AC Pin Currents:
+Id                     6.778f,-115.689°            1.465p,-115.68°
+
+Device Variables:
+area                             1.000                      1.000 
+ic                               0.000                      0.000 
+
+
+Instance:                       X9.DFX2
+Using model:                   X9.DMOD1
+
+Power AC Terms:
+PD                           2.145E-029
+PS                                    0
+
+AC Pin Currents:
+Id                    6.550E-021,64.32°
+
+Device Variables:
+area                             1.000 
+ic                               0.000 
+
+
+
+AC values for Bipolar Junction Transistors NPN (Mag, Degrees)
+=============================================================
+Instance:                        X10.Q1                     X10.Q2
+
+Power AC Terms:
+PG                      330.25p,79.516°          406.555p,-75.222°
+PD                   0.097f,5.438E-023°            0.097f,-0.002f°
+PS                                    0                          0
+
+AC Pin Currents:
+Ib                      9.837f,179.873°           9.839f,-179.968°
+Ic                     67.151n,100.394°          82.658n,-104.782°
+Ie                     67.151n,-79.606°            82.658n,75.218°
+Is                                    0                          0
+
+Device Variables:
+area                             1.000                      1.000 
+vbe                              0.000                      0.000 
+vce                              0.000                      0.000 
+
+
+Instance:                        X15.Q1                     X15.Q2
+
+Power AC Terms:
+PG                        1.551n,84.64°              2.01n,-85.69°
+PD                  0.605f,-5.566E-022°            0.605f,-0.001f°
+PS                                    0                          0
+
+AC Pin Currents:
+Ib                     24.601f,179.097°          24.601f,-179.804°
+Ic                     126.134n,94.617°          163.448n,-94.295°
+Ie                    126.134n,-85.383°           163.448n,85.705°
+Is                                    0                          0
+
+Device Variables:
+area                             1.000                      1.000 
+vbe                              0.000                      0.000 
+vce                              0.000                      0.000 
+
+
+Instance:                        X16.Q1                     X16.Q2
+
+Power AC Terms:
+PG                      347.102p,80.11°          423.346p,-75.747°
+PD                  0.097f,-5.438E-023°        0.097f,-4.454E-019°
+PS                                    0                          0
+
+AC Pin Currents:
+Ib                    9.837f,-132.518m°            9.839f,33.812m°
+Ic                     70.577n,-80.204°            86.072n,75.743°
+Ie                      70.577n,99.796°          86.072n,-104.257°
+Is                                    0                          0
+
+Device Variables:
+area                             1.000                      1.000 
+vbe                              0.000                      0.000 
+vce                              0.000                      0.000 
+
+
+Instance:                        X9.QNO
+Using model:                    X9.NPN1
+
+Power AC Terms:
+PG                  6.027E-022,-16.312°
+PD                    1.463E-026,2.81f°
+PS                                    0
+
+AC Pin Currents:
+Ib                     7.741f,-115.689°
+Ic                   774.088f,-115.689°
+Ie                     781.829f,64.311°
+Is                                    0
+
+Device Variables:
+area                             1.000 
+vbe                              0.000 
+vce                              0.000 
+
+
+
+AC values for Bipolar Junction Transistors PNP (Mag, Degrees)
+=============================================================
+Instance:                        X9.QNP
+Using model:                    X9.PNP1
+
+Power AC Terms:
+PG                   5.190E-022,-8.852°
+PD                   1.124E-026,3.658f°
+PS                                    0
+
+AC Pin Currents:
+Ib                     6.778f,-115.689°
+Ic                   677.824f,-115.689°
+Ie                     684.602f,64.311°
+Is                                    0
+
+Device Variables:
+area                             1.000 
+vbe                              0.000 
+vce                              0.000 
+
+
+
+AC values for Mosfet PMOS (Mag, Degrees)
+========================================
+Instance:                            M1
+Using model:                 $GENERIC_P
+
+Power AC Terms:
+PD                  5.983E-025,-0.002f°
+PS                                    0
+
+AC Pin Currents:
+Ig                                    0
+Id                    485.166f,-30.047°
+Is                      0.237f,149.953°
+Ib                     484.93f,149.953°
+
+Device Variables:
+m                                1.000 
+l                                0.000 
+w                                0.000 
+ad                               0.000 
+as                               0.000 
+pd                               0.000 
+ps                               0.000 
+nrd                              0.000 
+nrs                              0.000 
+nrb                              0.000 
+nrg                              0.000 
+vds                              0.000 
+vgs                              0.000 
+vbs                              0.000 
+
+
+
+AC values for Resistor (Mag, Degrees)
+=====================================
+Instance:                             R1                         R5
+Using model:                         TOL                        TOL
+
+Power AC Terms:
+PD                                7.208n                     7.208n
+
+AC Pin Currents:
+Ir                     98.033n,197.983u°              98.033n,-180°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                             R9                        R10
+Using model:                         TOL                        TOL
+
+Power AC Terms:
+PD                              464.681p             4.647p,0.001f°
+
+AC Pin Currents:
+Ir                      96.403n,-9.865m°           96.403n,-9.865m°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                            R11                        R12
+Using model:                         TOL                        TOL
+
+Power AC Terms:
+PD                     464.681p,-0.002f°                     4.647p
+
+AC Pin Currents:
+Ir                       96.403n,179.99°            96.403n,179.99°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                            R13                        R14
+Using model:                         TOL                        TOL
+
+Power AC Terms:
+PD                            4.840E-026         4.840E-026,0.007f°
+
+AC Pin Currents:
+Ir                      9.839f,-179.968°            9.839f,33.812m°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                            R15                        R16
+Using model:                         TOL                        TOL
+
+Power AC Terms:
+PD                      386.985n,0.031f°                   386.985n
+
+AC Pin Currents:
+Ir                      19.672u,179.841°           19.672u,179.841°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                            R18                        R19
+Using model:                         TOL                        TOL
+
+Power AC Terms:
+PD                       302.332n,0.02f°                     2.721u
+
+AC Pin Currents:
+Ir                     24.59u,-144.344m°           73.769u,179.696°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                            R20                        R21
+Using model:                         TOL                        TOL
+
+Power AC Terms:
+PD                              302.332n                     2.721u
+
+AC Pin Currents:
+Ir                     24.59u,-144.344m°            73.769u,179.66°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                            R22                        R23
+Using model:                         TOL                        TOL
+
+Power AC Terms:
+PD                        2.191n,0.169f°                 5.146E-025
+
+AC Pin Currents:
+Ir                         9.27u,88.707°           10.145f,-30.998°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                            R24                        R25
+Using model:                         TOL                        TOL
+
+Power AC Terms:
+PD                            5.114E-025                     4.837n
+
+AC Pin Currents:
+Ir                      10.113f,149.007°         98.352n,-685.385m°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                            R26                    X10.Rc1
+Using model:                         TOL                         NA
+
+Power AC Terms:
+PD                            1.073E-021                   199.335f
+
+AC Pin Currents:
+Ir                         1.465p,64.32°           67.148n,100.386°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                        X10.Rc2                    X10.Re1
+
+Power AC Terms:
+PD                      302.073f,2.394f°             26.57f,1.701f°
+
+AC Pin Currents:
+Ir                      82.66n,-104.789°           67.151n,100.394°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                        X10.Re2                     X10.Re
+
+Power AC Terms:
+PD                      40.259f,-2.245f°                   163.224p
+
+AC Pin Currents:
+Ir                     82.658n,-104.782°           33.193n,179.949°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                         X10.Rp                     X10.R2
+
+Power AC Terms:
+PD                            3.745E-024                    282.08f
+
+AC Pin Currents:
+Ir                      36.972f,-30.996°          2.375n,-138.752m°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                        X10.Ro2                 X10.ROUTAC
+
+Power AC Terms:
+PD                       52.825u,0.029f°           48.978n,-0.015f°
+
+AC Pin Currents:
+Ir                       2.056m,179.857°           44.262u,179.881°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                        X15.Rc1                    X15.Rc2
+
+Power AC Terms:
+PD                                5.626p                      9.45p
+
+AC Pin Currents:
+Ir                       126.12n,94.541°           163.46n,-94.353°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                        X15.Re1                    X15.Re2
+
+Power AC Terms:
+PD                                3.341p             5.61p,-0.516f°
+
+AC Pin Currents:
+Ir                      126.134n,94.617°          163.448n,-94.295°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                         X15.Re                     X15.Rp
+
+Power AC Terms:
+PD                              271.919p         3.904E-024,5.391f°
+
+AC Pin Currents:
+Ir                      22.124n,179.586°           38.541f,-30.996°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                         X15.R2                    X15.Ro2
+
+Power AC Terms:
+PD                               17.282f          208.306u,-0.029f°
+
+AC Pin Currents:
+Ir                     587.91p,-15.419m°            4.082m,179.854°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                     X15.ROUTAC                    X16.Rc1
+
+Power AC Terms:
+PD                              138.786n          220.199f,-1.642f°
+
+AC Pin Currents:
+Ir                     74.508u,-173.158°           70.575n,-80.212°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                        X16.Rc2                    X16.Re1
+
+Power AC Terms:
+PD                               327.54f            29.351f,-1.54f°
+
+AC Pin Currents:
+Ir                       86.074n,75.736°           70.577n,-80.204°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                        X16.Re2                     X16.Re
+
+Power AC Terms:
+PD                               43.653f           163.224p,0.009f°
+
+AC Pin Currents:
+Ir                       86.072n,75.743°          33.193n,-53.003m°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                         X16.Rp                     X16.R2
+
+Power AC Terms:
+PD                            3.745E-024                    323.13f
+
+AC Pin Currents:
+Ir                      36.972f,-30.996°            2.542n,179.845°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                        X16.Ro2                 X16.ROUTAC
+
+Power AC Terms:
+PD                           58u,0.026f°           218.28n,-0.054f°
+
+AC Pin Currents:
+Ir                     2.154m,-154.872m°         93.441u,-258.092m°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                            R27                        R28
+Using model:                         TOL                        TOL
+
+Power AC Terms:
+PD                                7.208n                      9.61n
+
+AC Pin Currents:
+Ir                         98.033n,-180°              98.033n,-180°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                            R29                        R30
+Using model:                         TOL                        TOL
+
+Power AC Terms:
+PD                                7.208n                      9.61n
+
+AC Pin Currents:
+Ir                     98.033n,197.983u°          98.033n,197.983u°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                            R31                        R32
+Using model:                         TOL                        TOL
+
+Power AC Terms:
+PD                     193.493n,-0.015f°                     4.647p
+
+AC Pin Currents:
+Ir                      19.672u,179.913°            96.403n,179.99°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                            R33                      X1.R1
+Using model:                         TOL                         NA
+
+Power AC Terms:
+PD                        4.647p,0.001f°                   174.255f
+
+AC Pin Currents:
+Ir                      96.403n,-9.865m°            96.403n,179.99°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                          X1.R2                     X20.R1
+
+Power AC Terms:
+PD                              174.255f                 7.154E-036
+
+AC Pin Currents:
+Ir                       96.403n,179.99°         8.458E-020,10.105°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                         X20.R2                     X20.R3
+
+Power AC Terms:
+PD                                 12.5n            1.879E-032,180°
+
+AC Pin Currents:
+Ir                         50n,243.731p°            0.194f,-73.361°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                         X20.R4                     X20.R5
+
+Power AC Terms:
+PD                        12.5p,-0.004f°                 4.935E-041
+
+AC Pin Currents:
+Ir                         50p,-179.969°        3.142E-021,-90.036°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                         X20.R6                     X21.R1
+
+Power AC Terms:
+PD                      4.915MEG,0.678f°                 3.302E-036
+
+AC Pin Currents:
+Ir                         3.135,86.405°       5.746E-020,-165.033°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                         X21.R2                     X21.R3
+
+Power AC Terms:
+PD                     12.5n,2.759E-026°            2.341E-032,180°
+
+AC Pin Currents:
+Ir                              50n,180°            0.216f,120.867°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                         X21.R4                     X21.R5
+
+Power AC Terms:
+PD                        12.5p,-0.004f°                 4.935E-041
+
+AC Pin Currents:
+Ir                            50p,30.7m°         3.142E-021,89.964°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                         X21.R6                     X9.RCX
+
+Power AC Terms:
+PD                              4.915MEG                 2.052E-041
+
+AC Pin Currents:
+Ir                        3.135,-93.595°        2.026E-022,-30.996°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                         X9.RDX                     X9.RBX
+
+Power AC Terms:
+PD                            2.052E-041                 2.028E-041
+
+AC Pin Currents:
+Ir                   2.026E-022,-30.996°        2.014E-022,-30.996°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                        X9.RVOS                    X9.RINB
+
+Power AC Terms:
+PD                            2.052E-041                 6.469E-031
+
+AC Pin Currents:
+Ir                   2.026E-022,-30.996°            0.036f,148.986°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                        X9.RINA                     X9.RAA
+
+Power AC Terms:
+PD                            5.003E-031         5.130E-029,-3.13f°
+
+AC Pin Currents:
+Ir                       0.032f,-31.013°            0.001f,-30.996°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                         X9.RBB                    X9.RBAL
+
+Power AC Terms:
+PD                            5.130E-029                 2.052E-041
+
+AC Pin Currents:
+Ir                       0.001f,-30.996°        2.026E-022,149.004°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                        X9.RSET                    X9.R001
+
+Power AC Terms:
+PD                            1.471E-041                 2.052E-041
+
+AC Pin Currents:
+Ir                   1.715E-022,-63.138°        2.026E-022,-30.996°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                        X9.RCM2                   X9.RPSR2
+
+Power AC Terms:
+PD                    1.238E-026,3.322f°          5.113E-027,4.02f°
+
+AC Pin Currents:
+Ir                       0.157f,142.599°            0.101f,-34.214°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                        X9.RCX1                    X9.RCX2
+
+Power AC Terms:
+PD                            3.370E-042         1.627E-043,3.505f°
+
+AC Pin Currents:
+Ir                   2.596E-022,148.992°         5.705E-023,-31.05°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                         X9.RO2                     X9.RO3
+
+Power AC Terms:
+PD                   1.199E-021,-4.493f°                     0.001f
+
+AC Pin Currents:
+Ir                      1.549p,-128.239°           1.549n,-128.239°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                        X9.RDN2                     X9.RDP
+
+Power AC Terms:
+PD                            2.996E-027                 2.297E-027
+
+AC Pin Currents:
+Ir                        7.741f,64.311°           6.778f,-115.689°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                         X9.RNO                     X9.RPO
+
+Power AC Terms:
+PD                            3.056E-025                 2.343E-025
+
+AC Pin Currents:
+Ir                    781.829f,-115.689°         684.602f,-115.689°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                         X9.RNT                     X9.RPT
+
+Power AC Terms:
+PD                            1.211E-026        1.172E-024,-4.491f°
+
+AC Pin Currents:
+Ir                        0.016f,47.991°           1.531f,-124.545°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                         X9.RAX                     X9.RD1
+Using model:                     X9.MRAX                         NA
+
+Power AC Terms:
+PD                            2.052E-041         3.234E-027,3.177f°
+
+AC Pin Currents:
+Ir                   2.014E-022,-30.996°            0.036f,148.986°
+
+Device Variables:
+tc1                               4.000u                     0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                         X9.RD2                     X9.RCM
+
+Power AC Terms:
+PD                            2.501E-027                 3.435E-028
+
+AC Pin Currents:
+Ir                       0.032f,-31.013°            0.004f,148.985°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                      X9.RSLOPE                     X9.RIB
+Using model:                          NA                    X9.MRIB
+
+Power AC Terms:
+PD                            1.642E-026                 2.052E-041
+
+AC Pin Currents:
+Ir                       0.162f,-30.996°        2.026E-022,-30.996°
+
+Device Variables:
+tc1                               0.000                      1.639m
+tc2                               0.000                      0.000 
+
+
+Instance:                        X9.RISC                    X9.RCM1
+Using model:                    X9.MRISC                         NA
+
+Power AC Terms:
+PD                            2.052E-041        6.926E-025,-3.798f°
+
+AC Pin Currents:
+Ir                   2.026E-022,-30.996°          78.663f,-127.515°
+
+Device Variables:
+tc1                              -2.000m                     0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                       X9.RPSR1                     X9.RDM
+
+Power AC Terms:
+PD                    2.875E-025,4.575f°                     0.128f
+
+AC Pin Currents:
+Ir                      101.125f,55.729°          335.322p,-38.243°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                          X9.R2                     X9.ROO
+
+Power AC Terms:
+PD                            1.185E-030                 5.097E-023
+
+AC Pin Currents:
+Ir                        0.083f,83.903°            1.465p,-115.68°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                         X17.R1                     X18.R1
+
+Power AC Terms:
+PD                   1.051E-022,-3.204f°                 1.051E-022
+
+AC Pin Currents:
+Ir                       2.051p,149.016°            2.051p,-30.984°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                         X19.R1                     C1.int
+
+Power AC Terms:
+PD                            9.365E-027     8.762E-021,7.507E-020°
+
+AC Pin Currents:
+Ir                      19.355f,-26.429°      1.324E-019,-549.813u°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                         C5.int                    C32.int
+
+Power AC Terms:
+PD               8.762E-021,-7.507E-020°                 3.249E-020
+
+AC Pin Currents:
+Ir                   1.324E-019,179.999°            2.549E-019,180°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                        C33.int                    C35.int
+
+Power AC Terms:
+PD                            7.124E-020                 3.249E-020
+
+AC Pin Currents:
+Ir                       3.775E-019,180°      2.549E-019,-190.343u°
+
+Device Variables:
+tc1                               0.000                      0.000 
+tc2                               0.000                      0.000 
+
+
+Instance:                        C36.int
+
+Power AC Terms:
+PD                            7.124E-020
+
+AC Pin Currents:
+Ir                  3.775E-019,-64.274u°
+
+Device Variables:
+tc1                               0.000 
+tc2                               0.000 
+
+
+
+AC values for Inductor (Mag, Degrees)
+=====================================
+Instance:                         X20.L1                     X21.L1
+
+Power AC Terms:
+PS                    1.903E-032,90.812°         6.712E-033,86.844°
+
+AC Pin Currents:
+Il                        0.225f,99.294°            0.117f,-71.877°
+
+Device Variables:
+ic                                0.000                      0.000 
+
+
+Instance:                         X17.L1                     X18.L1
+
+Power AC Terms:
+PS                        7.944E-021,90°             7.944E-021,90°
+
+AC Pin Currents:
+Il                      154.961p,59.016°         154.961p,-120.984°
+
+Device Variables:
+ic                                0.000                      0.000 
+
+
+Instance:                         X19.L1
+
+Power AC Terms:
+PS                        7.077E-025,90°
+
+AC Pin Currents:
+Il                      1.463p,-116.429°
+
+Device Variables:
+ic                                0.000 
+
+
+
+AC values for Capacitor (Mag, Degrees)
+======================================
+Instance:                             C1                         C5
+Using model:                         TOL                        TOL
+
+Power AC Terms:
+PS                         566.099n,-90°              566.099n,-90°
+
+AC Pin Currents:
+Ic                           9.239u,-90°                 9.239u,90°
+
+Device Variables:
+ic                                0.000                      0.000 
+
+
+Instance:                            C10                        C14
+Using model:                         TOL                        TOL
+
+Power AC Terms:
+PS                            9.12n,-90°                 9.12n,-90°
+
+AC Pin Currents:
+Ic                         1.854u,89.99°              1.854u,89.99°
+
+Device Variables:
+ic                                0.000                      0.000 
+
+
+Instance:                            C17                        C18
+Using model:                         TOL                        TOL
+
+Power AC Terms:
+PS                         486.299p,-90°              486.299p,-90°
+
+AC Pin Currents:
+Ic                        24.72n,89.841°             24.72n,89.841°
+
+Device Variables:
+ic                                0.000                      0.000 
+
+
+Instance:                            C19                        C20
+Using model:                         TOL                        TOL
+
+Power AC Terms:
+PS                            1.71n,-90°            1.911E-022,-90°
+
+AC Pin Currents:
+Ic                         46.35n,89.66°           154.974p,59.953°
+
+Device Variables:
+ic                                0.000                      0.000 
+
+
+Instance:                            C21                        C22
+Using model:                         TOL                        TOL
+
+Power AC Terms:
+PS                           0.001f,-90°            1.289E-020,-90°
+
+AC Pin Currents:
+Ic                     12.729n,-120.996°         127.288p,-120.996°
+
+Device Variables:
+ic                                0.000                      0.000 
+
+
+Instance:                            C25                        C28
+Using model:                         TOL                        TOL
+
+Power AC Terms:
+PS                       1.778E-020,-90°            6.096E-020,-90°
+
+AC Pin Currents:
+Ic                      149.477p,58.996°             276.765p,-121°
+
+Device Variables:
+ic                                0.000                      0.000 
+
+
+Instance:                            C29                        C30
+Using model:                         TOL                        TOL
+
+Power AC Terms:
+PS                         455.839n,-90°                0.006f,-90°
+
+AC Pin Currents:
+Ic                        9.269u,89.315°                27.676n,59°
+
+Device Variables:
+ic                                0.000                      0.000 
+
+
+Instance:                            C31                     X10.C1
+Using model:                         TOL                         NA
+
+Power AC Terms:
+PS                           0.002f,-90°                0.068f,-90°
+
+AC Pin Currents:
+Ic                     14.948n,-121.004°           10.554p,176.474°
+
+Device Variables:
+ic                                0.000                      0.000 
+
+
+Instance:                         X10.Ce                     X10.C3
+
+Power AC Terms:
+PS                          68.371p,-90°                3.769n,-90°
+
+AC Pin Currents:
+Ic                       13.904n,89.949°          145.982n,-90.143°
+
+Device Variables:
+ic                                0.000                      0.000 
+
+
+Instance:                         X15.C1                     X15.Ce
+
+Power AC Terms:
+PS                          17.022f,-90°              459.986p,-90°
+
+AC Pin Currents:
+Ic                     166.694p,179.519°            37.425n,89.586°
+
+Device Variables:
+ic                                0.000                      0.000 
+
+
+Instance:                         X15.C3                     X16.C1
+
+Power AC Terms:
+PS                          14.741n,-90°                0.075f,-90°
+
+AC Pin Currents:
+Ic                     288.721n,-90.146°             11.06p,-3.446°
+
+Device Variables:
+ic                                0.000                      0.000 
+
+
+Instance:                         X16.Ce                     X16.C3
+
+Power AC Terms:
+PS                          68.371p,-90°                4.139n,-90°
+
+AC Pin Currents:
+Ic                      13.904n,-90.053°           152.981n,89.845°
+
+Device Variables:
+ic                                0.000                      0.000 
+
+
+Instance:                            C32                        C33
+Using model:                         TOL                        TOL
+
+Power AC Terms:
+PS                         566.099n,-90°              566.099n,-90°
+
+AC Pin Currents:
+Ic                            9.239u,90°                 9.239u,90°
+
+Device Variables:
+ic                                0.000                      0.000 
+
+
+Instance:                            C34                        C35
+Using model:                         TOL                        TOL
+
+Power AC Terms:
+PS                         566.099n,-90°              566.099n,-90°
+
+AC Pin Currents:
+Ic                            9.239u,90°                9.239u,-90°
+
+Device Variables:
+ic                                0.000                      0.000 
+
+
+Instance:                            C36                        C37
+Using model:                         TOL                        TOL
+
+Power AC Terms:
+PS                         566.099n,-90°              566.099n,-90°
+
+AC Pin Currents:
+Ic                           9.239u,-90°                9.239u,-90°
+
+Device Variables:
+ic                                0.000                      0.000 
+
+
+Instance:                            C38                        C39
+Using model:                         TOL                        TOL
+
+Power AC Terms:
+PS                       1.289E-019,-90°            6.096E-020,-90°
+
+AC Pin Currents:
+Ic                      1.273n,-120.996°               276.765p,59°
+
+Device Variables:
+ic                                0.000                      0.000 
+
+
+Instance:                            C40                        C41
+Using model:                         TOL                        TOL
+
+Power AC Terms:
+PS                       6.096E-023,-90°            1.778E-023,-90°
+
+AC Pin Currents:
+Ic                          276.765f,59°           149.477f,58.996°
+
+Device Variables:
+ic                                0.000                      0.000 
+
+
+Instance:                            C42                        C43
+Using model:                         TOL                        TOL
+
+Power AC Terms:
+PS                       1.778E-020,-90°            1.289E-019,-90°
+
+AC Pin Currents:
+Ic                      149.477p,58.996°             1.273n,59.004°
+
+Device Variables:
+ic                                0.000                      0.000 
+
+
+Instance:                            C44                        C45
+Using model:                         TOL                        TOL
+
+Power AC Terms:
+PS                          30.399n,-90°               30.399n,-90°
+
+AC Pin Currents:
+Ic                         6.181u,89.99°              6.181u,89.99°
+
+Device Variables:
+ic                                0.000                      0.000 
+
+
+Instance:                            C46                        C47
+Using model:                         TOL                        TOL
+
+Power AC Terms:
+PS                           5.168n,-90°                5.168n,-90°
+
+AC Pin Currents:
+Ic                         1.051u,89.99°              1.051u,89.99°
+
+Device Variables:
+ic                                0.000                      0.000 
+
+
+Instance:                         X20.C1                     X20.C2
+
+Power AC Terms:
+PS                         785.398n,-90°              676.475f,-90°
+
+AC Pin Currents:
+Ic                           3.142u,-90°            5.05n,-179.969°
+
+Device Variables:
+ic                                0.000                      0.000 
+
+
+Instance:                         X20.C3                     X20.C4
+
+Power AC Terms:
+PS                       7.854E-038,-90°               782.31m,-90°
+
+AC Pin Currents:
+Ic                   3.142E-021,-90.036°             3.135,-93.595°
+
+Device Variables:
+ic                                0.000                      0.000 
+
+
+Instance:                         X21.C1                     X21.C2
+
+Power AC Terms:
+PS                         785.398n,-90°              676.475f,-90°
+
+AC Pin Currents:
+Ic                            3.142u,90°             5.05n,30.702m°
+
+Device Variables:
+ic                                0.000                      0.000 
+
+
+Instance:                         X21.C3                     X21.C4
+
+Power AC Terms:
+PS                       7.854E-038,-90°               782.31m,-90°
+
+AC Pin Currents:
+Ic                    3.142E-021,89.964°              3.135,86.405°
+
+Device Variables:
+ic                                0.000                      0.000 
+
+
+Instance:                        X9.CSET                    X9.CDC1
+
+Power AC Terms:
+PS                       9.244E-042,-90°            8.138E-029,-90°
+
+AC Pin Currents:
+Ic                    1.078E-022,26.862°         101.125f,-124.271°
+
+Device Variables:
+ic                                0.000                      0.000 
+
+
+Instance:                          X9.C1                    X9.CIN1
+
+Power AC Terms:
+PS                       7.535E-022,-90°            3.594E-025,-90°
+
+AC Pin Currents:
+Ic                     973.087f,141.762°           2.125f,-121.014°
+
+Device Variables:
+ic                                0.000                      0.000 
+
+
+Instance:                        X9.CIN2                     X9.CCM
+
+Power AC Terms:
+PS                       7.750E-032,-90°            6.188E-024,-90°
+
+AC Pin Currents:
+Ic                      0.001f,-122.813°          78.663f,-127.401°
+
+Device Variables:
+ic                                0.000                      0.000 
+
+
+Instance:                        X9.CPSR                      X9.C2
+
+Power AC Terms:
+PS                       5.113E-024,-90°                0.016f,-90°
+
+AC Pin Currents:
+Ic                      101.125f,55.786°            41.915p,51.757°
+
+Device Variables:
+ic                                0.000                      0.000 
+
+
+Instance:                         X17.C1                     X18.C1
+
+Power AC Terms:
+PS                       2.807E-026,-90°            2.807E-026,-90°
+
+AC Pin Currents:
+Ic                      0.548f,-120.984°             0.548f,59.016°
+
+Device Variables:
+ic                                0.000                      0.000 
+
+
+Instance:                         X19.C1
+
+Power AC Terms:
+PS                       2.501E-030,-90°
+
+AC Pin Currents:
+Ic                        0.005f,63.571°
+
+Device Variables:
+ic                                0.000 
+
+
+
+AC values for Function Source (Mag, Degrees)
+============================================
+Instance:                        X20.E2                     X20.E3
+
+Power AC Terms:
+PG                  7.854E-038,-89.964°                          0
+
+AC Pin Currents:
+ISource              3.142E-021,89.964°                          0
+
+
+Instance:                        X20.E5                     X20.E6
+
+Power AC Terms:
+PG                    783.852m,-86.405°           4.915MEG,0.678f°
+
+AC Pin Currents:
+ISource                   3.135,86.405°             3.135,-93.595°
+
+
+Instance:                        X20.E8                     X20.E9
+
+Power AC Terms:
+PG                                    0                          0
+
+AC Pin Currents:
+ISource                               0                          0
+
+
+Instance:                        X20.G1                     X21.E2
+
+Power AC Terms:
+PG                           1.25n,180°        7.854E-038,-89.964°
+
+AC Pin Currents:
+ISource                    5n,-179.969°        3.142E-021,-90.036°
+
+
+Instance:                        X21.E3                     X21.E5
+
+Power AC Terms:
+PG                                    0          783.852m,-86.405°
+
+AC Pin Currents:
+ISource                               0             3.135,-93.595°
+
+
+Instance:                        X21.E6                     X21.E8
+
+Power AC Terms:
+PG                             4.915MEG                          0
+
+AC Pin Currents:
+ISource                   3.135,86.405°                          0
+
+
+Instance:                        X21.E9                     X21.G1
+
+Power AC Terms:
+PG                                    0                 1.25n,180°
+
+AC Pin Currents:
+ISource                               0                  5n,30.7m°
+
+
+
+AC values for SPICE Poly (Mag, Degrees)
+=======================================
+Instance:                        X10.I3                     X10.V2
+
+Power AC Terms:
+PG                      1.006n,179.976°            7.501f,148.947°
+
+AC Pin Currents:
+ISource                39.136n,179.881°           44.229u,52.144m°
+
+
+Instance:                        X10.V1                     X10.I1
+
+Power AC Terms:
+PG                      1.959f,-0.023f°           742.87f,179.912°
+
+AC Pin Currents:
+ISource              88.524f,-118.904m°            6.255n,179.949°
+
+
+Instance:                        X10.I2                     X15.I3
+
+Power AC Terms:
+PG                     17.368p,-86.612°           26.893n,173.012°
+
+AC Pin Currents:
+ISource               146.247n,-93.526°         527.036n,-173.158°
+
+
+Instance:                        X15.V2                     X15.V1
+
+Power AC Terms:
+PG                     12.638f,141.963°                     5.551f
+
+AC Pin Currents:
+ISource                  74.517u,7.036°            149.016f,6.842°
+
+
+Instance:                        X15.I1                     X15.I2
+
+Power AC Terms:
+PG                    32.305f,-179.602°            8.487p,-89.535°
+
+AC Pin Currents:
+ISource                 1.099n,179.586°          288.722n,-90.481°
+
+
+Instance:                        X16.I3                     X16.V2
+
+Power AC Terms:
+PG                     2.225n,-179.897°           15.842f,-30.828°
+
+AC Pin Currents:
+ISource               82.62n,-258.092m°           93.408u,179.827°
+
+
+Instance:                        X16.V1                     X16.I1
+
+Power AC Terms:
+PG                               8.731f          795.087f,179.898°
+
+AC Pin Currents:
+ISource               186.882f,179.742°           6.255n,-53.004m°
+
+
+Instance:                        X16.I2                     X9.EOX
+
+Power AC Terms:
+PG                     19.479p,-86.709°        8.183E-041,-8.683u°
+
+AC Pin Currents:
+ISource                153.245n,86.554°        4.040E-022,149.004°
+
+
+Instance:                        X9.GOS                     X9.EXX
+
+Power AC Terms:
+PG                   4.629E-028,-7.247°        1.062E-025,-89.788°
+
+AC Pin Currents:
+ISource             1.208E-021,-30.996°           2.097f,-121.208°
+
+
+Instance:                        X9.EEE                     X9.ECC
+
+Power AC Terms:
+PG                  3.425E-023,-95.327°         3.920E-023,84.693°
+
+AC Pin Currents:
+ISource              676.311f,-115.669°           774.074f,64.311°
+
+
+Instance:                      X9.ESUPP                    X9.FSET
+
+Power AC Terms:
+PG                 2.052E-032,-15.773u°         8.208E-041,1.524u°
+
+AC Pin Currents:
+ISource             2.026E-022,149.004°        2.026E-022,-30.996°
+
+
+Instance:                      X9.FTEMP                    X9.ECMR
+
+Power AC Terms:
+PG                 5.312E-043,-59.392u°          6.228E-024,-83.5°
+
+AC Pin Currents:
+ISource             2.026E-022,-30.996°            78.663f,52.485°
+
+
+Instance:                       X9.EPSR                    X9.FCXX
+
+Power AC Terms:
+PG                  5.122E-024,-86.724°        1.213E-026,172.773°
+
+AC Pin Currents:
+ISource              101.125f,-124.271°        3.167E-020,-31.015°
+
+
+Instance:                       X9.ECMX                   X9.ELIMP
+
+Power AC Terms:
+PG                  2.507E-032,12.801n°        6.526E-036,155.105°
+
+AC Pin Currents:
+ISource             3.167E-022,-31.015°            0.001f,-38.243°
+
+
+Instance:                        X9.GDM                     X9.GO3
+
+Power AC Terms:
+PG                        0.13f,-7.229°          0.001f,-116.721u°
+
+AC Pin Currents:
+ISource               338.066p,-31.013°           1.549n,-128.239°
+
+
+Instance:                         X9.FX                     X9.FPX
+
+Power AC Terms:
+PG                           4.798E-021        7.419E-023,-95.316°
+
+AC Pin Currents:
+ISource                 1.465p,-115.68°            1.465p,-115.68°
+
+
+Instance:                        X9.FNX                    X9.FIN1
+
+Power AC Terms:
+PG                   3.317E-031,84.684°        1.808E-035,179.973°
+
+AC Pin Currents:
+ISource               6.550E-021,64.32°        1.526E-025,149.004°
+
+
+Instance:                       X9.FIN2                    X9.FCMR
+
+Power AC Terms:
+PG                   7.776E-036,2.842m°             0.001f,89.273°
+
+AC Pin Currents:
+ISource             1.538E-025,149.004°           1.761p,-127.515°
+
+
+Instance:                       X9.FPSR                    X9.GPWR
+
+Power AC Terms:
+PG                  4.357E-019,-93.971°       1.244E-032,-147.858°
+
+AC Pin Currents:
+ISource                  1.137p,55.729°        1.228E-022,-63.138°
+
+
+Instance:                      X9.ETEMP                   X9.ELIMN
+
+Power AC Terms:
+PG                3.751E-045,-392.926m°        6.578E-036,-24.895°
+
+AC Pin Currents:
+ISource             1.539E-025,149.397°            0.001f,141.757°
+
+
+Instance:                       X9.ECMP                    X9.ECMN
+
+Power AC Terms:
+PG                   8.907E-042,147.87°        1.957E-042,-32.088°
+
+AC Pin Currents:
+ISource             2.596E-022,-31.008°         5.705E-023,148.95°
+
+
+Instance:                         X9.G2                     X9.GO2
+
+Power AC Terms:
+PG                  1.391E-026,-57.854°        1.416E-021,-32.142°
+
+AC Pin Currents:
+ISource               973.131f,-38.243°             1.829p,83.903°
+
+
+Instance:                       X9.EPOS                    X9.ENEG
+
+Power AC Terms:
+PG                                    0       1.315E-041,-119.356°
+
+AC Pin Currents:
+ISource              1.565E-021,47.201°       1.534E-021,-123.782°
+
+
+Instance:                    X9.GSOURCE                   X9.GSINK
+
+Power AC Terms:
+PG                 1.818E-032,-100.967°         1.523E-032,86.474°
+
+AC Pin Currents:
+ISource             2.330E-023,-30.996°        1.985E-023,-30.996°
+
+
+
+AC values for SPICE Source (Mag, Degrees)
+=========================================
+Instance:                            V3                         V4
+
+Power AC Terms:
+PG                                    0            6.191u,-89.292°
+
+AC Pin Currents:
+ISource                               0           12.382u,-90.708°
+
+
+Instance:                            V1                    X10.IEE
+
+Power AC Terms:
+PG                                    0                          0
+
+AC Pin Currents:
+ISource               485.166f,149.953°                          0
+
+
+Instance:                       X10.VS1                     X10.VC
+
+Power AC Terms:
+PG                                    0                          0
+
+AC Pin Currents:
+ISource               2.375n,-138.752m°          49.18f,-144.344m°
+
+
+Instance:                        X10.VE                    X10.VLP
+
+Power AC Terms:
+PG                                    0                          0
+
+AC Pin Currents:
+ISource                 49.18f,179.856°           44.262f,179.881°
+
+
+Instance:                       X10.VLN                    X10.VS2
+
+Power AC Terms:
+PG                                    0                          0
+
+AC Pin Currents:
+ISource              44.262f,-118.904m°           44.262u,179.881°
+
+
+Instance:                       X15.IEE                    X15.VS1
+
+Power AC Terms:
+PG                                    0                          0
+
+AC Pin Currents:
+ISource                               0          587.91p,-15.419m°
+
+
+Instance:                        X15.VC                     X15.VE
+
+Power AC Terms:
+PG                                    0                          0
+
+AC Pin Currents:
+ISource              98.359f,-410.001m°            98.359f,179.59°
+
+
+Instance:                       X15.VLP                    X15.VLN
+
+Power AC Terms:
+PG                                    0                          0
+
+AC Pin Currents:
+ISource               74.508f,-173.158°             74.508f,6.842°
+
+
+Instance:                       X15.VS2                    X16.IEE
+
+Power AC Terms:
+PG                                    0                          0
+
+AC Pin Currents:
+ISource               74.508u,-173.158°                          0
+
+
+Instance:                       X16.VS1                     X16.VC
+
+Power AC Terms:
+PG                                    0                          0
+
+AC Pin Currents:
+ISource                 2.542n,179.845°            49.18f,179.855°
+
+
+Instance:                        X16.VE                    X16.VLP
+
+Power AC Terms:
+PG                                    0                          0
+
+AC Pin Currents:
+ISource               49.18f,-145.067m°         93.441f,-258.092m°
+
+
+Instance:                       X16.VLN                    X16.VS2
+
+Power AC Terms:
+PG                                    0                          0
+
+AC Pin Currents:
+ISource                93.441f,179.742°         93.441u,-258.092m°
+
+
+Instance:                        X20.V1                     X21.V1
+
+Power AC Terms:
+PG                                    0                          0
+
+AC Pin Currents:
+ISource                 0.189f,101.089°            0.189f,-78.911°
+
+
+Instance:                       X9.ISET                    X9.VOFF
+
+Power AC Terms:
+PG                                    0                          0
+
+AC Pin Currents:
+ISource                               0        2.026E-022,149.004°
+
+
+Instance:                     X9.VSENS1                   X9.VTEMP
+
+Power AC Terms:
+PG                                    0                          0
+
+AC Pin Currents:
+ISource             2.026E-022,-30.996°        1.532E-025,149.004°
+
+
+Instance:                       X9.VCMX                    X9.VPSX
+
+Power AC Terms:
+PG                                    0                          0
+
+AC Pin Currents:
+ISource               78.663f,-127.515°           101.125f,55.729°
+
+
+Instance:                       X9.VCXX                    X9.VOOP
+
+Power AC Terms:
+PG                                    0                          0
+
+AC Pin Currents:
+ISource             3.167E-022,-31.015°         774.074f,-115.689°
+
+
+Instance:                       X9.VOON                     X9.VOX
+
+Power AC Terms:
+PG                                    0                          0
+
+AC Pin Currents:
+ISource                676.311f,64.331°            1.465p,-115.68°
+
+
+Instance:                       X9.VFX1                    X9.VFX2
+
+Power AC Terms:
+PG                                    0                          0
+
+AC Pin Currents:
+ISource                 1.465p,-115.68°          6.550E-021,64.32°
+
+
+
+AC values for Table Source (Mag, Degrees)
+=========================================
+Instance:                        X20.E4                     X21.E4
+
+Power AC Terms:
+PG                                    0                          0
+
+AC Pin Currents:
+ISource                               0                          0
+
+
